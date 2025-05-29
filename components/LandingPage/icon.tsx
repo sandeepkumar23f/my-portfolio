@@ -1,4 +1,3 @@
-// components/LandingPage/icon.tsx
 'use client';
 
 import { LucideCode2, CloudSun, Calculator } from "lucide-react";

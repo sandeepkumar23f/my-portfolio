@@ -30,7 +30,6 @@ const Navbar = () => {
           MyPortfolio
         </Link>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex space-x-10 text-lg font-semibold">
           <Link href="/"><span className="text-gray-800 hover:text-blue-600">Home</span></Link>
           <Link href="/about"><span className="text-gray-800 hover:text-blue-600">About</span></Link>
@@ -39,7 +38,6 @@ const Navbar = () => {
           <Link href="/#contact"><span className="text-gray-800 hover:text-blue-600">Contact</span></Link>
         </div>
 
-        {/* Hamburger Menu */}
         <button
           onClick={(e) => {
             e.stopPropagation();
@@ -54,7 +52,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       <div
         id="mobile-menu"
         className={`mobile-menu fixed top-0 right-0 w-64 h-full bg-lime-200 z-50 transform transition-transform duration-300 ease-in-out ${

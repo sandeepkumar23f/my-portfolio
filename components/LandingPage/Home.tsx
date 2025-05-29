@@ -6,14 +6,12 @@ const Home = () => {
     <section className="min-h-screen flex items-center w-full px-4 sm:px-6 lg:px-8 py-12 bg-black text-white">
       <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8">
 
-        {/* Left - Text */}
         <div className="w-full lg:w-1/2 text-center lg:text-left order-2 lg:order-1">
           <TypewriterText />
           <p className="mt-4 sm:mt-6 text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed px-2 sm:px-0">
             Passionate about building modern, responsive UIs using React. I'm a CSE (IoT) student with a strong foundation in DSA, having solved over 300 problems on LeetCode & GFG.
           </p>
 
-          {/* Social Icons */}
           <div className="mt-6 flex justify-center lg:justify-start gap-14 text-2xl">
             <a
               href="https://github.com/sandeepkumar23f/"
@@ -49,7 +47,6 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right - Image */}
         <div className="w-full lg:w-1/2 flex justify-center order-1 lg:order-2">
           <div className="relative">
             <img

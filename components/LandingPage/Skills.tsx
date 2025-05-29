@@ -7,7 +7,6 @@ const Skills = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
-          {/* Frontend */}
           <div className="bg-amber-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
             <h3 className="text-2xl font-semibold text-amber-600 mb-6 text-center">
               Frontend
@@ -21,7 +20,6 @@ const Skills = () => {
             </ul>
           </div>
 
-          {/* DSA */}
           <div className="bg-blue-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
             <h3 className="text-2xl font-semibold text-blue-600 mb-6 text-center">
               DSA
@@ -35,7 +33,6 @@ const Skills = () => {
             </ul>
           </div>
 
-          {/* Tools */}
           <div className="bg-green-50 p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
             <h3 className="text-2xl font-semibold text-green-600 mb-6 text-center">
               Tools & Workflow
