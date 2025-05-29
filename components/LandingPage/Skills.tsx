@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <section className="w-full min-h-screen bg-white pt-28 px-6 lg:px-24">
+    <section className="w-full min-h-screen  pt-28 px-6 lg:px-24">
       <div className="max-w-7xl mx-auto flex flex-col items-center">
         <h2 className="text-4xl sm:text-5xl font-bold text-center text-amber-500 mb-16">
           My Skills

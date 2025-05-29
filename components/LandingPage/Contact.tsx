@@ -4,13 +4,13 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full min-h-screen bg-white py-24 px-6 lg:px-24">
+    <section id="contact" className="w-full min-h-screen  py-24 px-6 lg:px-24">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-amber-500 mb-10">
           Contact Me
         </h2>
 
-        <form className="space-y-6 bg-lime-100 p-8 rounded-2xl shadow-md">
+        <form className="space-y-6  p-8 rounded-2xl shadow-md">
           <div>
             <label htmlFor="name" className="block text-lg font-semibold text-gray-700">
               Name
