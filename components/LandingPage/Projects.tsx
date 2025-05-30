@@ -45,7 +45,6 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* 👇 Replaced with HoverEffect */}
         <HoverEffect items={projects} />
 
         <div className="mt-12 text-center">
