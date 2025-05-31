@@ -17,7 +17,6 @@ function TypewriterText() {
               loop: true,
               delay: 90,
               deleteSpeed: 70,
-              pauseFor: 1800,
             }}
           />
         </h1>
