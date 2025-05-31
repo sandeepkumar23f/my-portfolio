@@ -40,14 +40,14 @@ const Projects = () => {
             My Projects
           </h2>
           <p className="text-lg text-white max-w-3xl mx-auto">
-            Here are some of the projects I've built to showcase my skills in web development.
+            Here are some of the projects I have built to showcase my skills in web development.
           </p>
         </div>
 
         <HoverEffect items={projects} />
 
         <div className="mt-12 text-center">
-          <p className="text-gray-600 mb-6">Want to see more of my work?</p>
+          <p className="text-gray-600 mb-6">Want to see more of my work&#39;? </p>
           <a
             href="https://github.com/sandeepkumar23f/"
             target="_blank"
