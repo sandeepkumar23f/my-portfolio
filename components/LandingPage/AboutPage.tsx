@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <section className="bg-black min-h-screen flex items-center w-full px-4 sm:px-6 lg:px-8 py-16">
       <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-16">
-        
+
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -20,10 +20,10 @@ const AboutPage = () => {
           </h2>
           <div className="space-y-5 text-white text-lg sm:text-xl leading-relaxed">
             <p>
-              I'm a dedicated and enthusiastic web developer passionate about building responsive and accessible web applications. With a strong foundation in <span className="font-semibold text-cyan-700">HTML, CSS, JavaScript,React</span>, and modern frameworks, I enjoy bringing ideas to life through code.
+              I&apos;m a dedicated and enthusiastic web developer passionate about building responsive and accessible web applications. With a strong foundation in <span className="font-semibold text-cyan-700">HTML, CSS, JavaScript, React</span>, and modern frameworks, I enjoy bringing ideas to life through code.
             </p>
             <p>
-              I thrive on solving problems, continuously learning new technologies, and contributing to projects that make a meaningful impact. Whether it's crafting intuitive UIs or optimizing performance, I focus on writing clean and maintainable code.
+              I thrive on solving problems, continuously learning new technologies, and contributing to projects that make a meaningful impact. Whether it&apos;s crafting intuitive UIs or optimizing performance, I focus on writing clean and maintainable code.
             </p>
             <p>
               Outside of development, I love exploring new tools, participating in coding challenges, and sharing what I learn with the community.
@@ -48,7 +48,7 @@ const AboutPage = () => {
               <h3 className="text-2xl font-semibold text-cyan-800">My Mission</h3>
             </div>
             <p className="text-white text-base sm:text-lg leading-relaxed">
-              To design and build inclusive, innovative digital experiences that solve real-world challenges and empower people through technology. I'm committed to growing as a developer while contributing to meaningful and impactful projects.
+              To design and build inclusive, innovative digital experiences that solve real-world challenges and empower people through technology. I&apos;m committed to growing as a developer while contributing to meaningful and impactful projects.
             </p>
           </div>
         </motion.div>

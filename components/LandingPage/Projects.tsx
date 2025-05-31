@@ -1,5 +1,4 @@
 "use client";
-import { CodeIcon, FeatherIcon, CalculatorIcon, QuoteIcon } from "lucide-react";
 import { HoverEffect } from "../ui/card-hover-effect";
 
 const Projects = () => {
