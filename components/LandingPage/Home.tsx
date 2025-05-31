@@ -9,7 +9,7 @@ const Home = () => {
         <div className="w-full lg:w-1/2 text-center lg:text-left order-2 lg:order-1">
           <TypewriterText />
           <p className="mt-4 sm:mt-6 text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 leading-relaxed px-2 sm:px-0">
-            Passionate about building modern, responsive UIs using React. I'm a CSE (IoT) student with a strong foundation in DSA, having solved over 300 problems on LeetCode & GFG.
+            Passionate about building modern, responsive UIs using React. I'm a CSE student with a strong foundation in DSA, having solved over 400 problems on LeetCode & GFG.
           </p>
 
           <div className="mt-6 flex justify-center lg:justify-start gap-14 text-2xl">
