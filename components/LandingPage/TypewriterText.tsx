@@ -9,7 +9,7 @@ function TypewriterText() {
             options={{
               strings: [
                 'Hi, I’m Sandeep Kumar.',
-                'Frontend Developer – React',
+                'Full Stack Developer – MERN',
                 'CSE Student 🎓',
                 'DSA Proficient',
               ],
