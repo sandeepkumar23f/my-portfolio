@@ -49,16 +49,16 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="w-full min-h-screen py-24 px-6 lg:px-24">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-amber-500 mb-10">Contact Me</h2>
+    <section id="contact" className="w-full min-h-screen py-24 px-6 lg:px-24 bg-black">
+      <div className="max-w-4xl mx-auto text-white!">
+        <h2 className="text-4xl font-bold text-center text-white mb-10">Contact Me</h2>
 
         {successMessage && <div className="text-green-600 text-center mb-6">{successMessage}</div>}
         {errorMessage && <div className="text-red-600 text-center mb-6">{errorMessage}</div>}
 
         <form onSubmit={handleSubmit} className="space-y-6 p-8 rounded-2xl shadow-md">
           <div>
-            <label htmlFor="name" className="block text-lg font-semibold text-gray-700">Name</label>
+            <label htmlFor="name" className="block text-lg font-semibold text-white">Name</label>
             <input
               type="text"
               id="name"
@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-lg font-semibold text-gray-700">Email</label>
+            <label htmlFor="email" className="block text-lg font-semibold text-white">Email</label>
             <input
               type="email"
               id="email"
@@ -86,7 +86,7 @@ const Contact = () => {
           </div>
 
           <div>
-            <label htmlFor="message" className="block text-lg font-semibold text-gray-700">Message</label>
+            <label htmlFor="message" className="block text-lg font-semibold text-white">Message</label>
             <textarea
               id="message"
               name="message"

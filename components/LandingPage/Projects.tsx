@@ -4,6 +4,12 @@ import { HoverEffect } from "../ui/card-hover-effect";
 const Projects = () => {
   const projects = [
     {
+      title: "Expense Tracker",
+      description:
+      "A full-stack MERN application to manage personal expenses with secure JWT authentication, interactive Recharts.js visualizations, and a responsive mobile-first design. Users can add, update, delete, and track expenses while seeing spending patterns by category in real time",
+      link: "https://track-your-expense-r8m6.onrender.com/",
+    },
+    {
       title: "Virtual Assistant",
       description:
         "A voice-controlled AI assistant built with HTML, CSS, and JavaScript that can perform tasks like answering questions, setting reminders, and more.",

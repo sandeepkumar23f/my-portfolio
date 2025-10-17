@@ -37,6 +37,8 @@ const Skills = () => {
         "VS Code, Chrome DevTools",
         "NPM, Vite, Webpack (basics)",
         "CI/CD, Debugging Tools",
+        "Render, Netlify",
+        "API testing: Postman, Thunderclient"
       ],
       color: "green",
     },
