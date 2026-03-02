@@ -97,7 +97,7 @@ const Projects = () => {
 
             {/* Resume Button */}
             <a
-              href="/sandeep-resume.pdf"
+              href="/sandeep_resume.pdf"
               download
               className="inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-md shadow-sm text-blue-600 bg-white border border-blue-600 hover:bg-blue-50 transition-colors"
             >
