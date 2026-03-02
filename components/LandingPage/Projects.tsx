@@ -12,6 +12,24 @@ const Projects = () => {
       featured: true,
     },
     {
+  title: "ReviewBuddy – AI Code Reviewer",
+  description:
+    "An AI-driven full-stack web application that performs automated code reviews by identifying bugs, anti-patterns, performance issues, and best-practice violations. The system also computes time & space complexity and generates optimized production-ready code using LLM integration. Designed with a VS Code-like Monaco editor for a seamless developer experience.",
+  link: "https://review-buddy-frontend.onrender.com/",
+  tech: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "OpenRouter (LLM API)",
+    "Monaco Editor",
+    "AI Integration",
+    "RESTful APIs",
+    "Full-Stack Architecture"
+  ],
+},
+    {
       title: "Expense Tracker",
       description:
         "A MERN-based expense management system featuring secure JWT authentication, CRUD operations, real-time data visualization with Recharts.js, and a responsive mobile-first UI for tracking expenses by category.",
@@ -31,20 +49,6 @@ const Projects = () => {
         "A responsive weather forecasting application that consumes third-party REST APIs to display real-time weather data, temperature, and forecast details with error handling.",
       link: "https://github.com/sandeepkumar23f/weather-app",
       tech: ["HTML", "CSS", "JavaScript", "REST API"],
-    },
-    {
-      title: "Basic Calculator",
-      description:
-        "A lightweight web-based calculator implementing core arithmetic operations with clean UI design and optimized JavaScript logic.",
-      link: "#",
-      tech: ["HTML", "CSS", "JavaScript"],
-    },
-    {
-      title: "Quiz App",
-      description:
-        "An interactive quiz application featuring multiple-choice questions, dynamic scoring logic, and client-side state management using JavaScript.",
-      link: "https://quizbysandeep.netlify.app/",
-      tech: ["HTML", "CSS", "JavaScript"],
     },
   ];
 
